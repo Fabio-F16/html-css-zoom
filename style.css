@@ -28,6 +28,7 @@ body{
 
 header{
     justify-content: flex-end;
+    height: 50px;
     
 }
 
@@ -36,7 +37,12 @@ header > *{
     background-color: gray;
     font-size: 15px;
     margin: 8px;
-    padding: 2px 5px;
+    padding: 0px 5px;
+}
+
+button:hover{
+    text-decoration: underline;
+    font-size: 1.1rem;
 }
 
 .main{
@@ -47,17 +53,24 @@ header > *{
 .screen-view{
     width: 13%;
     height: 100px;
-    background-image: url("img/IMG_20220127_161248.jpg");
+    background-image: url("img/image.png");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     align-items: flex-end;
     margin-top: 10px;
 }
+
+.screen-view:hover{
+	width: 14%;	
+	
+}
+
 
 .screen-view span{
     background-color: rgba(0, 0, 0, 0.4);
     padding: 2px 5px;   
 }
+
 
 nav{
     height: 75px;
@@ -74,31 +87,44 @@ nav > *{
     /* border: 1px solid red;     */
 }
 
-.button i{
+.btn i{
     font-size: 1.5rem;
 }
 
-.button{
+.btn{
     flex-direction: column;
     align-items: center;
     margin: 0px 10px;
 }
 
+.btn:hover{
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 1.3rem;
+}
+
 .nav-left, .nav-middle, .nav-right{
     align-items: center;
 }
+
 .fa-share-square{
     color: green;
 }
+
 .nav-middle{
     flex-grow: 1;
     justify-content: center;
 }
+
 .nav-right{
-    justify-content: flex-end;
+    justify-content: stretch;
     color: red;
     background-color: #4a4a4a;
     padding: 0px 10px;
+}
+
+.nav-right:hover{
+    text-decoration: underline;
+    font-size: 1.4rem;
 }
 
 
