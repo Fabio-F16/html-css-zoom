@@ -21,6 +21,11 @@ body{
     display: flex; 
 }
 
+.big-container{
+    height: 100vh;
+    position: relative;
+}
+
 header{
     justify-content: flex-end;
     
@@ -58,6 +63,10 @@ nav{
     height: 75px;
     margin-top: 3%;
     background-color: #222222;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
 }
 
 nav > *{
