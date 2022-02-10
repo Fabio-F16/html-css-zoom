@@ -73,6 +73,7 @@ button:hover{
 
 
 nav{
+    overflow-x: scroll;
     height: 75px;
     margin-top: 3%;
     background-color: #222222;
@@ -99,7 +100,6 @@ nav > *{
 
 .btn:hover{
     color: rgba(0, 0, 0, 0.9);
-    font-size: 1.3rem;
 }
 
 
