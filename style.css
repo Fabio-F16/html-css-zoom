@@ -102,7 +102,8 @@ nav > *{
     font-size: 1.3rem;
 }
 
-.nav-left, .nav-middle, .nav-right{
+
+nav{
     align-items: center;
 }
 
@@ -116,7 +117,8 @@ nav > *{
 }
 
 .nav-right{
-    justify-content: stretch;
+    align-items: center;
+    height: 100%;
     color: red;
     background-color: #4a4a4a;
     padding: 0px 10px;
